@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background-color: #cccccc;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+.navbar h1 {
+    color: #2f2f2f;
+    margin-left: 15px;
+}
+.search-box {
+    width: 300px;
+    font-size: small;
+    padding: 3px 5px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7f7f7f;
+}
+.login {
+    color: white;
+    background-color: #2b78e4;
+    padding: 3px 6px;
+    box-shadow: 2px 2px 0px black;
+    margin-right: 15px;
+}
+.colcontainer {
+    width: 60%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+.colleft {
+    flex: 2;
+}
+.colright {
+    flex: 1;
+    margin-left: 20px;
+}
+.definition {
+    padding: 20px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+}
+#top-definition {
+    margin-bottom: 20px;
+}
+.left-definition {
+    flex: 1;
+    text-align: center;
+}
+.left-definition h2 {
+    font-size: 42px;
+    margin-bottom: 3px;
+}
+.left-definition h3 {
+    font-style: italic;
+    font-size: 25px;
+}
+.plural {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.plural p {
+    margin-left: 6px;
+    font-style: italic;
+    font-weight: bolder
+}
+.right-definition {
+    flex: 3;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.left-definition button {
+    background-color: #ffd966;
+    color: #0a0804;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 7px 19px;
+    box-shadow: 3px 3px 1px;
+}
+.right-definition p {
+    font-size: 25px;
+}
+
+/* Use this span tag to make text with different aspects less difficult. */
+span {
+    color: blue;
+    text-decoration: underline;
+}
+.right-text-button {
+    padding: 20px;
+    border-style: solid;
+    font-size: 22px;
+}
+.right-text-button button {
+    background-color: #93c47d;
+    color: #0a0804;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 15px;
+    padding: 7px 19px;
+    box-shadow: 3px 3px 1px;
+}
