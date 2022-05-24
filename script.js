@@ -1,7 +1,7 @@
-function logout(likes) {
-    likes.innerText = "Logout";
+function logout(element) {
+    element.innerText = "Logout";
 }
 
-function hide(addDef) {
-    addDef.remove();
+function hide(element) {
+    element.remove();
 }
