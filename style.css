@@ -104,6 +104,7 @@ span {
     padding: 20px;
     border-style: solid;
     font-size: 22px;
+    text-align: center;
 }
 .right-text-button button {
     background-color: #93c47d;
